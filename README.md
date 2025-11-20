@@ -53,6 +53,7 @@ Respuesta:
 
 json
 Copiar código
+```bash
 [
   {
     "id": 1,
@@ -62,6 +63,7 @@ Copiar código
     "fecha_nacimiento": "24-12-2000"
   }
 ]
+```
 #### 🔹 2. Crear un nuevo usuario
 POST /users/new/
 
@@ -69,16 +71,19 @@ Body esperado:
 
 json
 Copiar código
+```bash
 {
   "nombres": "Ana",
   "apellidos": "Torres Ramos",
   "dni": "11223344",
   "fecha_nacimiento": "10-05-2002"
 }
+```
 Respuesta:
 
 json
 Copiar código
+```bash
 {
   "id": 3,
   "nombres": "Ana",
@@ -86,6 +91,7 @@ Copiar código
   "dni": "11223344",
   "fecha_nacimiento": "10-05-2002"
 }
+```
 #### 🔹 3. Actualizar un usuario
 PUT /users/:id
 
@@ -98,13 +104,16 @@ Body:
 
 json
 Copiar código
+```bash
 {
   "nombres": "Juan Carlos"
 }
+```
 Respuesta:
 
 json
 Copiar código
+```bash
 {
   "id": 1,
   "nombres": "Juan Carlos",
@@ -112,6 +121,7 @@ Copiar código
   "dni": "12345678",
   "fecha_nacimiento": "24-12-2000"
 }
+```
 #### 🔹 4. Eliminar un usuario
 DELETE /users/:id
 
@@ -124,9 +134,11 @@ Respuesta:
 
 json
 Copiar código
+```bash
 {
   "message": "Usuario eliminado correctamente"
 }
+```
 🧪 Pruebas con Postman o Thunder Client
 Puedes usar Postman, Insomnia o Thunder Client para probar los endpoints.
 
