@@ -31,6 +31,7 @@ Copiar código
 ```bash
 git clone https://github.com/edissonparicahua123/SENATI-BACKEND.git
 cd tu-repo
+```
 2️⃣ Instalar dependencias
 bash
 Copiar código
