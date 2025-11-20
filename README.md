@@ -32,11 +32,11 @@ Copiar código
 git clone https://github.com/edissonparicahua123/SENATI-BACKEND.git
 cd tu-repo
 ```
-2️⃣ Instalar dependencias
+### 2️⃣ Instalar dependencias
 bash
 Copiar código
 npm install
-3️⃣ Ejecutar el servidor
+### 3️⃣ Ejecutar el servidor
 bash
 Copiar código
 node index.js
@@ -46,7 +46,7 @@ arduino
 Copiar código
 http://localhost:3000
 📡 Endpoints Disponibles
-🔹 1. Obtener todos los usuarios
+#### 🔹 1. Obtener todos los usuarios
 GET /users/
 
 Respuesta:
@@ -62,7 +62,7 @@ Copiar código
     "fecha_nacimiento": "24-12-2000"
   }
 ]
-🔹 2. Crear un nuevo usuario
+#### 🔹 2. Crear un nuevo usuario
 POST /users/new/
 
 Body esperado:
@@ -86,7 +86,7 @@ Copiar código
   "dni": "11223344",
   "fecha_nacimiento": "10-05-2002"
 }
-🔹 3. Actualizar un usuario
+#### 🔹 3. Actualizar un usuario
 PUT /users/:id
 
 Ejemplo:
@@ -112,7 +112,7 @@ Copiar código
   "dni": "12345678",
   "fecha_nacimiento": "24-12-2000"
 }
-🔹 4. Eliminar un usuario
+#### 🔹 4. Eliminar un usuario
 DELETE /users/:id
 
 Ejemplo:
